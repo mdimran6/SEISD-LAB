@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url('reg1.jpg')
+}
+.container
+{
+  position: absolute;
+  right: 800px;
+  margin: 5px;
+  max-width: 350px;
+  padding: 20px;
+
+}
+input[type=text], input[type=password]
+{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus
+{
+  background-color: #f4f5b3;
+  outline: none;
+}
+
+.btn
+{
+  background-color: #00b386;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1;
+}
